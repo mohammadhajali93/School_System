@@ -1,0 +1,114 @@
+C:\Users\moham\source\repos\Rekaz\Rekaz\bin\Debug\Rekaz.exe.config
+C:\Users\moham\source\repos\Rekaz\Rekaz\bin\Debug\Rekaz.exe
+C:\Users\moham\source\repos\Rekaz\Rekaz\bin\Debug\Rekaz.pdb
+C:\Users\moham\source\repos\Rekaz\Rekaz\bin\Debug\MySql.Data.dll
+C:\Users\moham\source\repos\Rekaz\Rekaz\bin\Debug\Google.Protobuf.dll
+C:\Users\moham\source\repos\Rekaz\Rekaz\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\moham\source\repos\Rekaz\Rekaz\bin\Debug\MySql.Data.xml
+C:\Users\moham\source\repos\Rekaz\Rekaz\obj\Debug\Rekaz.csprojAssemblyReference.cache
+C:\Users\moham\source\repos\Rekaz\Rekaz\obj\Debug\Rekaz.Properties.Resources.resources
+C:\Users\moham\source\repos\Rekaz\Rekaz\obj\Debug\Rekaz.csproj.GenerateResource.cache
+C:\Users\moham\source\repos\Rekaz\Rekaz\obj\Debug\Rekaz.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\Rekaz\Rekaz\obj\Debug\Rekaz.csproj.CopyComplete
+C:\Users\moham\source\repos\Rekaz\Rekaz\obj\Debug\Rekaz.exe
+C:\Users\moham\source\repos\Rekaz\Rekaz\obj\Debug\Rekaz.pdb
+C:\Users\moham\source\repos\Rekaz\Rekaz\obj\Debug\Rekaz.Main.resources
+C:\Users\moham\source\repos\Rekaz\Rekaz\obj\Debug\Rekaz.log_in.resources
+C:\Users\moham\source\repos\Rekaz\Rekaz\obj\Debug\Rekaz.Register.resources
+C:\Users\moham\source\repos\Rekaz\Rekaz\obj\Debug\Rekaz.payments.resources
+C:\Users\moham\source\repos\Rekaz\Rekaz\obj\Debug\Rekaz.students.resources
+C:\Users\moham\source\repos\Rekaz\Rekaz\obj\Debug\Rekaz.add_student.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\bin\Debug\Rekaz.exe.config
+C:\Users\moham\Desktop\Rekaz\Rekaz\bin\Debug\Rekaz.exe
+C:\Users\moham\Desktop\Rekaz\Rekaz\bin\Debug\Rekaz.pdb
+C:\Users\moham\Desktop\Rekaz\Rekaz\bin\Debug\MySql.Data.dll
+C:\Users\moham\Desktop\Rekaz\Rekaz\bin\Debug\Google.Protobuf.dll
+C:\Users\moham\Desktop\Rekaz\Rekaz\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\moham\Desktop\Rekaz\Rekaz\bin\Debug\MySql.Data.xml
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.csprojAssemblyReference.cache
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.add_student.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.log_in.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.Main.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.payments.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.Properties.Resources.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.Register.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.students.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.csproj.GenerateResource.cache
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.csproj.CoreCompileInputs.cache
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.csproj.CopyComplete
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.exe
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.pdb
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.add_class_section.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.add_brother.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.show_brothers.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.add_student_data_payment.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.delete_student.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.transporation.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.confirm.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.editStudent.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.Expenses.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.satistics.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.Seplash_secreen.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.add_Employee.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.Salary_revealed.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.Transfer_students.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.EmployeeForm.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.editEmployee.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.FormBorring.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.exports.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.EditStudentDataPayment.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.showBookUniform.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.showStudentLate.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.showStudentPayment.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.showBorrowEmployeee.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.showSalary.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.Daily_Fund.resources
+C:\Users\moham\Desktop\Rekaz\Rekaz\obj\Debug\Rekaz.Revenues.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.csprojAssemblyReference.cache
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.add_brother.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.add_class_section.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.add_Employee.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.add_student.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.add_student_data_payment.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.confirm.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.Daily_Fund.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.delete_student.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.editEmployee.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.editStudent.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.EditStudentDataPayment.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.EmployeeForm.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.Expenses.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.exports.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.log_in.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.FormBorring.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.Main.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.payments.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.Properties.Resources.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.Register.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.Revenues.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.Salary_revealed.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.Seplash_secreen.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.showBookUniform.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.showBorrowEmployeee.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.showSalary.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.showStudentLate.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.showStudentPayment.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.show_brothers.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.satistics.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.students.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.Transfer_students.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.transporation.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.csproj.GenerateResource.cache
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.csproj.CoreCompileInputs.cache
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\bin\Debug\Rekaz.exe.config
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\bin\Debug\Rekaz.exe
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\bin\Debug\Rekaz.pdb
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\bin\Debug\MySql.Data.dll
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\bin\Debug\Google.Protobuf.dll
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\bin\Debug\BouncyCastle.Crypto.dll
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\bin\Debug\MySql.Data.xml
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.csproj.CopyComplete
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.exe
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.pdb
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.Expenses_Show.resources
+D:\سنة رابعة فصل ثالث\توثيق\Rekaz\Rekaz\obj\Debug\Rekaz.Receivables.resources

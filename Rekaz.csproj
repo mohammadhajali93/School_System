@@ -1,0 +1,863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0E82FA9-BF2C-48A7-B6F9-54F20A492E94}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Rekaz</RootNamespace>
+    <AssemblyName>Rekaz</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.16.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add_brother.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_brother.Designer.cs">
+      <DependentUpon>add_brother.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_class_section.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_class_section.Designer.cs">
+      <DependentUpon>add_class_section.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_Employee.Designer.cs">
+      <DependentUpon>add_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_student.Designer.cs">
+      <DependentUpon>add_student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_student_data_payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_student_data_payment.Designer.cs">
+      <DependentUpon>add_student_data_payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirm.Designer.cs">
+      <DependentUpon>confirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="connection.cs" />
+    <Compile Include="Daily_Fund.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Daily_Fund.Designer.cs">
+      <DependentUpon>Daily_Fund.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete_student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete_student.Designer.cs">
+      <DependentUpon>delete_student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editEmployee.Designer.cs">
+      <DependentUpon>editEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editStudent.Designer.cs">
+      <DependentUpon>editStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditStudentDataPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditStudentDataPayment.Designer.cs">
+      <DependentUpon>EditStudentDataPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeForm.Designer.cs">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expenses.Designer.cs">
+      <DependentUpon>Expenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expensess.cs" />
+    <Compile Include="Expenses_Show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expenses_Show.Designer.cs">
+      <DependentUpon>Expenses_Show.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exports.Designer.cs">
+      <DependentUpon>exports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBorring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBorring.Designer.cs">
+      <DependentUpon>FormBorring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyValidation.cs" />
+    <Compile Include="payments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payments.Designer.cs">
+      <DependentUpon>payments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Receivables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receivables.Designer.cs">
+      <DependentUpon>Receivables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Revenues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Revenues.Designer.cs">
+      <DependentUpon>Revenues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salary_class.cs" />
+    <Compile Include="Salary_revealed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary_revealed.Designer.cs">
+      <DependentUpon>Salary_revealed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seplash secreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seplash secreen.Designer.cs">
+      <DependentUpon>Seplash secreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShardPreferance.cs" />
+    <Compile Include="showBookUniform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showBookUniform.Designer.cs">
+      <DependentUpon>showBookUniform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showBorrowEmployeee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showBorrowEmployeee.Designer.cs">
+      <DependentUpon>showBorrowEmployeee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showSalary.Designer.cs">
+      <DependentUpon>showSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showStudentLate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showStudentLate.Designer.cs">
+      <DependentUpon>showStudentLate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showStudentPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showStudentPayment.Designer.cs">
+      <DependentUpon>showStudentPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="show_brothers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="show_brothers.Designer.cs">
+      <DependentUpon>show_brothers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="statistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="statistics.Designer.cs">
+      <DependentUpon>statistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student.cs" />
+    <Compile Include="students.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="students.Designer.cs">
+      <DependentUpon>students.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transfer_students.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfer_students.Designer.cs">
+      <DependentUpon>Transfer_students.cs</DependentUpon>
+    </Compile>
+    <Compile Include="transporation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transporation.Designer.cs">
+      <DependentUpon>transporation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="add_brother.resx">
+      <DependentUpon>add_brother.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_class_section.resx">
+      <DependentUpon>add_class_section.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_Employee.resx">
+      <DependentUpon>add_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_student.resx">
+      <DependentUpon>add_student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_student_data_payment.resx">
+      <DependentUpon>add_student_data_payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirm.resx">
+      <DependentUpon>confirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daily_Fund.resx">
+      <DependentUpon>Daily_Fund.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete_student.resx">
+      <DependentUpon>delete_student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editEmployee.resx">
+      <DependentUpon>editEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editStudent.resx">
+      <DependentUpon>editStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditStudentDataPayment.resx">
+      <DependentUpon>EditStudentDataPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expenses.resx">
+      <DependentUpon>Expenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expenses_Show.resx">
+      <DependentUpon>Expenses_Show.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exports.resx">
+      <DependentUpon>exports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBorring.resx">
+      <DependentUpon>FormBorring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payments.resx">
+      <DependentUpon>payments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Receivables.resx">
+      <DependentUpon>Receivables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Revenues.resx">
+      <DependentUpon>Revenues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary_revealed.resx">
+      <DependentUpon>Salary_revealed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seplash secreen.resx">
+      <DependentUpon>Seplash secreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showBookUniform.resx">
+      <DependentUpon>showBookUniform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showBorrowEmployeee.resx">
+      <DependentUpon>showBorrowEmployeee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showSalary.resx">
+      <DependentUpon>showSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showStudentLate.resx">
+      <DependentUpon>showStudentLate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showStudentPayment.resx">
+      <DependentUpon>showStudentPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="show_brothers.resx">
+      <DependentUpon>show_brothers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="statistics.resx">
+      <DependentUpon>statistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="students.resx">
+      <DependentUpon>students.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transfer_students.resx">
+      <DependentUpon>Transfer_students.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transporation.resx">
+      <DependentUpon>transporation.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a02b1899058b5dd47113ced5106941ca_educational-background-png-images-vectors-and-psd-files-free-_260-260.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2811%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %288%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-school-supplies-ruler-clip-art-school-supplies-learning-tools-5aae9da498a1f6.3713457115213930606252.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2814%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back2School.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-first-day-of-school-clip-art-school-supplies-globe-border-5a9d4a239f21a4.0582478015202575716518.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2818%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51UUsyDaHtL._SX425_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagesgggg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagesgggg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1663.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64460249_340620609948149_9153954477609320448_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64460249_340620609948149_9153954477609320448_n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2815%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2816%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2818%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %284%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\US-dollar-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webdev-money-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins-in-hand-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows-Stand-By-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngfind.com-children-png-2985939.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Register-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows-Stand-By-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-poster-estudante-school-school-background-download-5a91009a4a9565.1918964615194523143055.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\symbol-check-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2813%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %288%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2810%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back2School1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back2School2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\City-Students-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\App-login-manager-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\butterfly-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Increase-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2819%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2810%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school-bus-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10212-woman-student-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school-bus-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2816%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-school-supplies-ruler-clip-art-school-supplies-learning-tools-5aae9da498a1f6.37134571152139306062521.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2817%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-edit-delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-icon %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %288%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-icon %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-icon4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-icon %281%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-icon5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-icon %281%294.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school-bus-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10029-face-with-rolling-eyes-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow-Back-2-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-icon %281%295.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyes-office-women-glasses-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-icon %281%296.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-icon %281%297.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39404682_223701144973430_5060375758577336320_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39206559_223701421640069_4199889961450733568_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39404682_223701144973430_5060375758577336320_n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Industry-Manual-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyes-office-women-glasses-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyes-office-women-glasses-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emoticon-Love-Gift-Give-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emoticon-Love-Gift-Give-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41257902_235575703785974_4891730981481873408_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41257902_235575703785974_4891730981481873408_n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41257902_235575703785974_4891730981481873408_n2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2815%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-first-day-of-school-clip-art-school-supplies-globe-border-5a9d4a239f21a4.05824780152025757165181.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-first-day-of-school-clip-art-school-supplies-globe-border-5a9d4a239f21a4.05824780152025757165182.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42793584_241537799856431_1584292300236783616_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2820%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2820%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2820%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2820%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Science-School-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48413034_266853280658216_6841681112079532032_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Science-School-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a02b1899058b5dd47113ced5106941ca_educational-background-png-images-vectors-and-psd-files-free-_260-2601.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2816%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyes-office-women-red-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallet-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallet-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coin-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coin-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coin-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins-700000-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-icon %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41257902_235575703785974_4891730981481873408_n3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %281%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42793584_241537799856431_1584292300236783616_n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2816%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31946528_165607407449471_1903392337216667648_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41257902_235575703785974_4891730981481873408_n4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins-in-hand-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-icon %281%298.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emoticon-Love-Gift-Give-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins-700000-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin-add-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45166214_250548288955382_8491828622607253504_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41257902_235575703785974_4891730981481873408_n5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %281%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42617467_240741283269416_6489561838974402560_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Books-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12183-dress-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42617467_240741283269416_6489561838974402560_n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45166214_250548288955382_8491828622607253504_n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\java-old-school-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
